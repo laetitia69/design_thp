@@ -16,7 +16,7 @@ Pour tester cette application, importer le dossier sur votre pc, en suivant les 
 ```
 Importez dans votre dossier,
 
-$ git clone https://github.com/laetitia69/movies_lyon
+$ git clone https://github.com/laetitia69/design_thp.git
 
 $ cd design_thp
 
