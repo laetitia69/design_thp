@@ -22,3 +22,16 @@
 	padding: 2px 16px;
 }
 
+.card_photo .moi2, .card_photo .pauline2, .card_photo .carlos2, .card_photo .willy2, .card_photo .ludo2{
+	display: none;
+	transition-duration: 2s;
+	transform: translateX(150px) rotate(30deg)
+}
+.card_photo:hover .moi, .card_photo:hover .pauline, .card_photo:hover .carlos, .card_photo:hover .willy, .card_photo:hover .ludo{
+	display: none;
+}
+.card_photo:hover .moi2, .card_photo:hover .pauline2, .card_photo:hover .carlos2, .card_photo:hover .willy2, .card_photo:hover .ludo2{
+	display: inline-block;
+	transition: width 2s;
+}
+
