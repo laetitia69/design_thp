@@ -1,4 +1,4 @@
- # [Design-THP](https://movies-lyon.herokuapp.com/)
+ # [Design-THP]
 
 ------------------------------
 # J'utilise;
@@ -25,5 +25,4 @@ $ bundle install --without production
 $ rails server
 ```
 
-Pour accéder à la page heroku, [voici le lien](https://movies-lyon.herokuapp.com/)
 
