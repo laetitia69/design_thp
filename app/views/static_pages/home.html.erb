@@ -1,0 +1,96 @@
+<header>
+	<nav>
+		<div class="navbar_logo">
+			<a href="#"><%= image_tag 'logo.jpg' ,class: "logo" %></a>
+		</div>
+		<div class="title_nav">
+			<h1>Bienvenue<span> à Lyon!!</span></h1>
+		</div>
+		<div class="navbar_right">
+			<div class="dropdown">
+				<%= image_tag 'avatar.jpg', class: "avatar", alt: "mon avatar" %>
+				<div class="dropdown-content">
+					<a href="#">Liens fictifs</a>
+                    <a href="#">Accueil</a>
+                    <a href="#">Profil</a>
+                    <a href="#">Contact</a>
+                </div>
+					
+			</div> <!-- fin dropdown -->
+		</div> <!-- fin navbar_right -->
+	</nav>
+</header>
+
+<div class="container">
+	<h2>Laisse moi te présenter la team Lyon</h2>
+	<div class="cards">
+
+		<div class="card moi">
+			<%= image_tag 'moi.jpg', class: "card_avatar moi", alt: "mon avatar" %>
+			
+
+			<div class="card_category">
+				<h4>Laetitia 69</h4>
+				<p>Ne vous fiez pas aux apparences! Je suis la plus méchante du groupe :-)</p>
+			</div>
+			<button class="btn_red">En savoir plus</button>
+		</div>	
+
+		<div class="card pauline">
+			<%= image_tag 'pauline.jpg', class: "card_avatar", alt: "Pauline avatar" %>
+
+			<div class="card_category">
+				<h4>Pauline MEAOW</h4>
+				<p>Oracle de l'html elle sait être présente lorsqu'on a besoin d'aide!</p>
+			</div>
+			<button class="btn_red">En savoir plus</button>
+		</div>
+
+		<div class="card carlos">
+			<%= image_tag 'carlos.jpg', class: "card_avatar", alt: "carlos avatar" %>
+			<div class="card_category">
+				<h4>Carlos CARLITOS</h4>
+				<p>Notre vénézuélien du groupe qui nous réapprend la langue française</p>
+			</div>
+			<button class="btn_red">En savoir plus</button>
+		</div>
+
+		<div class="card willy">
+			<%= image_tag 'willy.jpg', class: "card_avatar", alt: "willy avatar" %>
+			<div class="card_category">
+				<h4>Willy 18</h4>
+				<p>Bruiteur exceptionnel! Sans lui nos journées seraient (trop) silencieuses</p>
+			</div>
+			<button class="btn_red">En savoir plus</button>
+		</div>
+
+		<div class="card ludo">
+			<%= image_tag 'ludo.jpg', class: "card_avatar", alt: "ludo avatar" %>
+			<div class="card_category">
+				<h4>Ludo LOUNDNESS</h4>
+				<p>Epicurien dans l'âme, curieux de la vie, notre aventurier du groupe.</p>
+			</div>
+			<button class="btn_red">En savoir plus</button>
+		</div>
+	</div>
+
+	<div class="tabs">
+		<ul>
+			<li>
+				<a href="data:text/html,<h1>Tous ici via THP</h1>" target="tabcontent">Notre rencontre</a>
+			</li>
+			<li>
+				<a href="data:text/html,<h1>Tous ensemble on va plus loin</h1>" target="tabcontent">Notre force</a>
+			</li>
+			<li>
+				<a href="data:text/html,<h1>Aller le plus loin possible :-)</h1>" target="tabcontent">Nos objectifs</a>
+			</li>
+		</ul>
+		<iframe src="data:text/html,<h1>Cliquez sur nos titres pour savoir ce qu'ils disent!!!</h1>" name="tabcontent"></iframe>
+	</div>
+</div>
+
+<footer>
+	<blockquote>La boxe n'est pas un sport violent. C'est une conversation entre deux Hommes qui communiquent entre eux avec leurs mains.</blockquote>
+	<cite>Julien Lorty</cite>
+</footer>

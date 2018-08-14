@@ -1,0 +1,40 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ /* --- Import Google Fonts stylesheets --- */
+@import url("http://fonts.googleapis.com/ css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+
+html{
+	width: 100%;
+}
+
+body {
+font-family: "Open Sans", "Helvetica", "sans-serif"; 
+margin: 0 auto;
+}
+
+h1, h2, h3 {
+font-family: "Montserrat", "sans-serif";
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}

@@ -1,0 +1,22 @@
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: middle;
+	background: -webkit-linear-gradient(#000, #EA2E39);
+	color: white;  
+	padding: 2%;
+}
+
+.navbar_logo, .navbar_right {
+	width: 7%;
+}
+
+.navbar_logo img, .navbar_right img{
+	width: 100%;
+}
+
+.title_nav h1{
+	color: white;
+	font-size: 2rem;
+	font-weight: 700;
+}

@@ -1,0 +1,17 @@
+.avatar{
+	border-radius: 50%;
+}
+
+.avatar:hover, .logo:hover{
+	transform: scale(1.25);
+}
+
+.card_avatar{
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.card_avatar:hover{
+	background: url(asset-path("pauline2.jpg"));
+	
+}

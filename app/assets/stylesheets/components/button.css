@@ -1,0 +1,13 @@
+.btn_red{
+	background: -webkit-linear-gradient(#fff, #EA2E39);
+	color: #000;
+	padding: 1%;
+	border: none;
+	border-radius: 5px; 
+	margin: 0 0 3% 3%; 
+}
+
+.btn_red:hover{
+	background: -webkit-linear-gradient(#fff, #000);
+	color: #fff;
+}
