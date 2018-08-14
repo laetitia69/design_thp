@@ -16,7 +16,7 @@
 
  /* --- Import Google Fonts stylesheets --- */
 @import url("http://fonts.googleapis.com/ css?family=Open+Sans:400,300,700|Montserrat:400,700");
-@import url(components/avatar.css)
+@import url(components/avatar.scss)
 @import url(components/button.css)
 @import url(components/cards.css)
 @import url(components/container.css)
