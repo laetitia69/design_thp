@@ -10,4 +10,10 @@
 	width: 100%;
 	border-radius: 5px 5px 0 0;
 }
+.card_avatar.moi{
+	background: url("/../../assets/images/moi.jpg");
+}
 
+.card_avatar:hover{
+	background-image: url("/images/moi2.jpg");
+}
