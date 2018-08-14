@@ -1,9 +1,8 @@
- # [Design-THP]
+ # [Design-THP](https://design-thp.herokuapp.com/)
 
 ------------------------------
-# J'utilise;
+# J'utilise:
 
-* la base sqlite3
 * ruby '2.5.1'
 * gem 'rails', '~> 5.2.1'
 
@@ -24,5 +23,6 @@ $ bundle install --without production
 
 $ rails server
 ```
+Pour accéder à la page heroku, [voici le lien](https://design-thp.herokuapp.com/)
 
 
